@@ -1,0 +1,78 @@
+body {
+  font-family: "Libertinus Mono", monospace;
+  background-color: #be1ac0;
+  color: white;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #be1ac0;
+  padding: 2rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+.emile {
+  width: 7rem;
+}
+
+#nomImage {
+  max-width: 12rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+}
+
+#dl,
+#send {
+  display: none;
+}
+
+.clic {
+  background-color: white;
+  box-shadow: 0px 3px 5px rgb(63, 63, 63);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  gap: 3rem;
+}
+
+.boutons {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+input {
+  margin: 0;
+}
+
+form {
+  background-color: #e379cc;
+  box-shadow: 0px 3px 5px rgb(63, 63, 63);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.image {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
