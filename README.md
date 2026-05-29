@@ -22,7 +22,7 @@ Ouvrir http://localhost:8083
 ### Avec Docker
 ```bash
 docker build -t mini-insta .
-docker run -p 8083:80 --name mini-insta mini-insta
+docker run -d -p 8083:80 -v "/chemin/vers/mini_insta/photos":/var/www/html/photos --name mini-insta mini-insta
 ```
 Ouvrir http://localhost:8083
 
